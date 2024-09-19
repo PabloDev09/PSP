@@ -1,0 +1,34 @@
+package exercise1.app;
+
+import exercise1.classes.AlphabetSoup;
+import exercise1.classes.Coordinate;
+import exercise1.exceptions.InvalidLetterLength;
+import exercise1.exceptions.InvalidNLetrasException;
+
+public class App {
+	public static final String linea = "-";
+	
+	
+	public static void main(String[] args) throws InvalidNLetrasException, InvalidLetterLength {
+		AlphabetSoup tonto = new AlphabetSoup(5);
+		
+		System.out.println("---------------------------");
+		System.out.println(tonto.toString());
+		System.out.println("---------------------------");
+		
+		tonto.placeHorizontalWord("ToNtO", new Coordinate(3, 2), "InvErSO");
+		
+		System.out.println("---------------------------");
+		System.out.println(tonto.toString());
+		System.out.println("---------------------------");
+		
+		tonto.placeVerticalWord("PENEQUE", new Coordinate(3, 2), "InvErSO");
+		
+		System.out.println("---------------------------");
+		System.out.println(tonto.toString());
+		System.out.println("---------------------------");
+		
+		tonto.printSummary();
+	}
+
+}

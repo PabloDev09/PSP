@@ -1,0 +1,12 @@
+package exercise1.app;
+
+import exercise1.classes.AlphabetSoup;
+
+public class App {
+
+	public static void main(String[] args) {
+		AlphabetSoup tonto = new AlphabetSoup(5);
+
+	}
+
+}

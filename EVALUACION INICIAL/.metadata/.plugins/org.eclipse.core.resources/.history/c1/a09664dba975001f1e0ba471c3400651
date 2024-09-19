@@ -1,0 +1,15 @@
+package exercise1.app;
+
+import exercise1.classes.AlphabetSoup;
+import exercise1.exceptions.InvalidNLetrasException;
+
+public class App {
+
+	public static void main(String[] args) throws InvalidNLetrasException {
+		AlphabetSoup tonto = new AlphabetSoup(5);
+		
+		System.out.println(tonto.toString());
+
+	}
+
+}

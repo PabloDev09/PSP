@@ -1,0 +1,5 @@
+package exercise1.clas;
+
+public class InvalidNLetrasException extends Exception {
+
+}

@@ -1,0 +1,6 @@
+
+ç	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.b 7c42d9ffe9927810658f1dd7ce3e334dh
+s
+java:S1117≈"7Rename "row" which hides the field declared at line 19.8ìÍÊß†2b f1965a857bc285d26fe22023aa5ab50dh
+e
+java:S2093`"*Change this "try" to a try-with-resources.8¥∫Ï∞†2b 080f651e3fcca17df3a47c2cecfcb880h

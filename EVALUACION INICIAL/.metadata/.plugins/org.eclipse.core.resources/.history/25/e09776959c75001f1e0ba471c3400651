@@ -1,0 +1,11 @@
+package exercise1.exceptions;
+
+public class InvalidNLetrasException extends Exception 
+{
+	public String msg = "ERROR - El número de letras introducido no es correcto, debe ser mayor a 0";
+	
+	InvalidNLetrasException()
+	{
+		System.out.println(msg);
+	}
+}

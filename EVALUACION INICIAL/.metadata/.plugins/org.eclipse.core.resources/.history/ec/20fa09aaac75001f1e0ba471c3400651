@@ -1,0 +1,12 @@
+package exercise1.exceptions;
+
+public class InvalidLetterLength extends Exception 
+{
+	public String msg = "ERROR - La palabra introducida no cabe en la sopa de letras, debe ser más pequeña";
+	
+	public InvalidLetterLength()
+	{
+		System.out.println(msg);
+	}
+}
+

@@ -1,0 +1,10 @@
+package exercise1.classes;
+
+public class Coordinate 
+{
+	
+	public int row;
+	public int column;
+	public boolean isNatural;
+	
+}
