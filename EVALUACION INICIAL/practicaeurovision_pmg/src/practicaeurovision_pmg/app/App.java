@@ -15,6 +15,9 @@ public class App
 		
 		// Hacer votaciones y mostrar resultados
 		f.makeAndShowVotationsFinalists(eurovision);
+		
+		// Asignar final de Eurovision 2024
+		eurovision.setLastfinal(f);
 
 	}
 
